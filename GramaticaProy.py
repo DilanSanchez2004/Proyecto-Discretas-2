@@ -1,6 +1,6 @@
 # Definición de la clase que representa una gramática formal
 class Gramatica:
-    def _init_(self):
+    def __init__(self):
         # # Constructor: se inicializan todos los atributos de la gramática
         self.vocabulario = set()        # Conjunto de símbolos (terminales + no terminales)
         self.terminales = set()         # Conjunto de símbolos terminales
