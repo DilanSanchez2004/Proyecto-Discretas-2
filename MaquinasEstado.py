@@ -108,5 +108,5 @@ def menu():
             print("❗ Opción inválida. Intente nuevamente.")
 
 # Punto de inicio del programa
-if _name_ == "_main_":
+if __name__ == "_main_":
     menu()
